@@ -6,7 +6,6 @@ Vault Protocol Introduction The Vault protocol is the first single-token lossles
 
 # Audits
 
-- <a href="https://defibox.s3.ap-northeast-1.amazonaws.com/pdf/Certik+Smart+Contract+Security+Audit+Report+For+Vault.pdf"> Sentnl Audit</a> (2022-11)
 - <a href="https://www.certik.com/projects/defibox"> Certik Audit</a>
 
 ## Contracts
