@@ -508,7 +508,7 @@ class [[eosio::contract("vault")]] vault : public contract {
         uint64_t primary_key() const { return id; }
     };
     /**
-     * ## TABLE `configs`
+     * ## TABLE `config`
      *
      * ### params
      *

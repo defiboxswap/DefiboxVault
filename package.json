@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "defibox-vault-contracts",
+  "version": "1.0.0",
+  "description": "Defibox-Vault",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:defiboxswap/DefiboxVault.git",
+  "contributors": [
+  
+  ],
+  "scripts": {
+    "build": "./tests/build.sh",
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "@proton/vert": "^0.3.10",
+    "@types/chai": "^4.3.1",
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3",
+    "decimal.js": "^10.4.3"
+  }
+}
