@@ -33,14 +33,14 @@ $ cleos push action vault.defi release '["tester1"]' -p tester1
 ### `ADMIN`
 
 ```bash
-# modify configs
+# modify config
 $ cleos push action vault.defi updatestatus '[1, 1, 1]' -p admin.defi
 
 # create collateral tokens
 $ cleos push action vault.defi createcoll '["eosio.token", "4,EOS", "award.defi", "fees.defi", "0.1000 EOS", "10", "30", "5000"]' -p admin.defi
 
 # modify collateral tokens
-$ cleos push action vault.defi updatecoll '[1, "award.defi", "fees.defi", "10", "0.2000 EOS" "10", "30", "5000"]' -p admin.defi
+$ cleos push action vault.defi updatecoll '[1, "award.defi", "fees.defi", "10", "0.2000 EOS", "10", "30", "5000"]' -p admin.defi
 ```
 
 ### `ANYONE`
@@ -83,7 +83,7 @@ cleos get table stoken.defi SEOS stat
 - [ACTION `releaselog`](#action-releaselog)
 - [ACTION `withdrawlog`](#action-withdrawlog)
 
-## TABLE `configs`
+## TABLE `config`
 
 ### params
 
