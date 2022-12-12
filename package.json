@@ -10,6 +10,7 @@
   
   ],
   "scripts": {
+    "release": "./script/build.sh",
     "build": "./tests/build.sh",
     "test": "jest --verbose"
   },
